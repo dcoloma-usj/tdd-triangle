@@ -91,7 +91,7 @@ describe('invalid arguments', function() {
 });
 ```
 
-As getTriangleType is not yet defined, the tests fail as they cannot be executed. You can check opening test.html in any browser.
+As getTriangleType is not yet defined, the tests fail as they cannot be executed. You can check opening test.html (https://dcoloma-usj.github.io/tdd-triangle/iteration01/fails/test.html) in any browser.
 
 Now that we have a red test, let’s start adding functionality. The simplest way to make the test pass is returning always “The arguments were not valid” (INVALID_ARGS). Of course this is not what we want at the end, but it’s how TDD works, let’s do the minimal things to pass the tests we have, if the tests are defined ok, when we finish, we should a very robust implementation.
 
